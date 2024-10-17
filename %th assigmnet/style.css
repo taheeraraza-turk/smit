@@ -1,0 +1,24 @@
+
+body {
+  background-image: linear-gradient(to right , skyblue,white,pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 1.7rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+  border: 3px solid black;
+  outline: 2px solid black;
+  outline-offset: 3px;
+  border-radius: 50%;
+  transition:transform 2s;
+  position: relative;
+  top: -12rem;
+  right: 14rem;
+}
+img:hover{
+  transform: scaleX(-1);
+}
